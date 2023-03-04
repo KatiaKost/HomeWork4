@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class hexagonMeasurements {
+public class HexagonMeasurements {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

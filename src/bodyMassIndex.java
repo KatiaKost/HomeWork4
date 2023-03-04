@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class bodyMassIndex {
+public class BodyMassIndex {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -9,8 +9,10 @@ public class bodyMassIndex {
         System.out.println("Введите свой вес в фунтах: ");
         double weightInPounds = input.nextDouble();
 
-        double heightInMeters = heightInInches * 0.0254;
-        double weightInKilograms = weightInPounds * 0.45359237;
+        final double metersOfInches = 0.0254;
+        double heightInMeters = heightInInches * metersOfInches;
+        final double kilogramsOfPounds = 0.45359237;
+        double weightInKilograms = weightInPounds * kilogramsOfPounds;
         double bodyMassIndex = weightInKilograms / (heightInMeters * heightInMeters);
         System.out.println("Индекс массы тела: " + bodyMassIndex);
     }

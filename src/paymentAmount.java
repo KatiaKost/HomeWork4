@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class paymentAmount {
+public class PaymentAmount {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

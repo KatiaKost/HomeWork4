@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sumOfDigits {
+public class SumOfDigits {
     public static void main(String[] args) {
         System.out.println("Введите натуральное целочисленное цисло от 0 до 1000");
         Scanner input = new Scanner(System.in);
